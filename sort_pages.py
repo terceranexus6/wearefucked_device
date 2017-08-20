@@ -12,10 +12,11 @@ def lcount(keyword, fname):
   with open(fname, 'r') as fin:
     return sum([1 for line in fin if keyword in line])
 
-#count different censored countries
-datat = lcount('twitter','/usr/local/bro/logs/current/x509.log') 
-dataf = lcount('facebook','/usr/local/bro/logs/current/x509.log') 
-dataw = lcount('wikipedia','/usr/local/bro/logs/current/x509.log')
+#count different censored countries, look for your directory
+#we are using bro tool here for net scanning
+datat = lcount('twitter','.../logs/current/x509.log') 
+dataf = lcount('facebook','.../logs/current/x509.log') 
+dataw = lcount('wikipedia','.../logs/current/x509.log')
 
 #sum them
 data = datat+dataf+dataw
