@@ -5,6 +5,6 @@ This stupid but fun to do device uses the technology in Arduino, Python and bro.
 
 If someone in the network connects to any of this more than 3 times, the led will glow in red, which will remind you, you are so lucky you are able to connect to them in your current location.
 
-I made this device for a speech I'm giving in September about internet censorship. It's on diapers, and I'm willing to improve it. Feel fre to fork, suggest and use this device as you wish, even better if you keep the toy's philosophy regarding internet censorship. 
+I made this device for a speech I'm giving in September about internet censorship. It's on diapers, and I'm willing to improve it. Feel free to fork, suggest and use this device as you wish, even better if you keep the toy's philosophy regarding internet censorship. 
 
 ![devi](images/device.jpg)
